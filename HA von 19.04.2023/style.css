@@ -1,0 +1,28 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+div{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+.grun:hover{
+    width: 300px;
+    height: 300px;
+    -webkit-transform: rotate(45deg);
+}
+.rot{  
+    background-color: red;
+}
+.grun{  
+    transition: 1s;
+    z-index: 1;
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: green;
+}
+.blau{ 
+    margin-left: 100px;
+    margin-top: 100px;
+    background-color: blue;
+}
